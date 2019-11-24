@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Employee Rest API">
+ <listeners>
+     
+   <listener class-name="utilities.Listeners"/>  
+     
+     
+ </listeners>
+    
+<test name="Rest API Testing">
+    
+    <classes>
+        
+        <class name="testCases.TC001"/>
+        
+    </classes>
+    
+    
+</test>    
+    
+</suite>

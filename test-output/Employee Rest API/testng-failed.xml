@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Employee Rest API]">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Rest API Testing(failed)">
+    <classes>
+      <class name="testCases.TC001">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC001 -->
+    </classes>
+  </test> <!-- Rest API Testing(failed) -->
+</suite> <!-- Failed suite [Employee Rest API] -->
